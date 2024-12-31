@@ -1,0 +1,20 @@
+PS C:\Users\gyans\OneDrive\デスクトップ\kadai\git_challenge> git add hello_world.txt
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\gyans\OneDrive\デスクトップ\kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/gyans/OneDrive/デスクトップ/kadai/git_challenge/.git/
+PS C:\Users\gyans\OneDrive\デスクトップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\gyans\OneDrive\デスクトップ\kadai\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 714c27e] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\gyans\OneDrive\デスクトップ\kadai\git_challenge> git add hello_world.txt
+PS C:\Users\gyans\OneDrive\デスクトップ\kadai\git_challenge> git commit -m "日本語訳を追加"
+[main e75e194] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\gyans\OneDrive\デスクトップ\kadai\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\gyans\OneDrive\デスクトップ\kadai\git_challenge> git log --oneline
+e75e194 (HEAD -> main) 日本語訳を追加
+714c27e hello_world.txtを追加
+PS C:\Users\gyans\OneDrive\デスクトップ\kadai\git_challenge> 
